@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/induz-react/static/css/main.b8cd96d5.css",
+    "main.js": "/induz-react/static/js/main.141ef95d.js",
+    "static/js/787.36905c4e.chunk.js": "/induz-react/static/js/787.36905c4e.chunk.js",
+    "static/media/about-01.jpg": "/induz-react/static/media/about-01.d2b88312eb4999f1db03.jpg",
+    "static/media/banner.jpg": "/induz-react/static/media/banner.012cd2c58fa726d5edc4.jpg",
+    "static/media/services.jpg": "/induz-react/static/media/services.63e547c167e572ba9994.jpg",
+    "static/media/about-02.jpg": "/induz-react/static/media/about-02.04a8a09bdab5c2b17c37.jpg",
+    "index.html": "/induz-react/index.html",
+    "static/media/integrity.svg": "/induz-react/static/media/integrity.38f517f066465191519840f5f1b52859.svg",
+    "static/media/safety.svg": "/induz-react/static/media/safety.e9788cb79bc4b662e90b32f96550cb89.svg",
+    "static/media/automation.svg": "/induz-react/static/media/automation.59c376aed4980aa67f1f6181c7e8b405.svg",
+    "static/media/tradition.svg": "/induz-react/static/media/tradition.921a01cf773bcb567343b20191ed04cc.svg",
+    "main.b8cd96d5.css.map": "/induz-react/static/css/main.b8cd96d5.css.map",
+    "main.141ef95d.js.map": "/induz-react/static/js/main.141ef95d.js.map",
+    "787.36905c4e.chunk.js.map": "/induz-react/static/js/787.36905c4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8cd96d5.css",
+    "static/js/main.141ef95d.js"
+  ]
+}
