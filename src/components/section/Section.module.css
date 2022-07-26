@@ -1,0 +1,25 @@
+.section {
+	background-color: #232220;
+	color: #fff;
+}
+
+.contents {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 3rem;
+	padding: 4rem 0;
+}
+
+.sectionContents {
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 1.5rem;
+}
+
+.sectionContents h2 {
+	color: #ff5722;
+}

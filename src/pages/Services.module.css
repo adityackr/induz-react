@@ -1,0 +1,26 @@
+.section {
+	background-image: linear-gradient(
+			to right,
+			rgb(12 6 3 / 70%),
+			rgb(12 3 0 / 70%)
+		),
+		url('../images/services.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+.cards {
+	background-color: #232220;
+	color: #fff;
+	padding: 4rem 0;
+}
+
+.cardsContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 2rem;
+}

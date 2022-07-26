@@ -1,0 +1,10 @@
+.image {
+	padding-top: 0;
+	width: 100%;
+	text-align: end;
+}
+
+.section {
+	background-color: #292828;
+	flex-direction: row-reverse;
+}

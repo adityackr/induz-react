@@ -1,9 +1,8 @@
-import { Link } from '@reach/router';
 import Container from '../container/Container';
+import NavLinks from '../nav-links/NavLinks';
 import classes from './Layout.module.css';
 
-const Layout = (props) => {
-	console.log(window.location.pathname);
+const Layout = ({ children }) => {
 	return (
 		<div>
 			<nav className={classes.nav}>
@@ -12,24 +11,11 @@ const Layout = (props) => {
 						<h3>Induz</h3>
 					</div>
 					<div className={classes.menu}>
-						<ul>
-							<li>
-								<Link to="/">Home</Link>
-							</li>
-							<li>
-								<Link to="/about">About Us</Link>
-							</li>
-							<li>
-								<Link to="/services">Services</Link>
-							</li>
-							<li>
-								<Link to="/contact">Contact</Link>
-							</li>
-						</ul>
+						<NavLinks />
 					</div>
 				</Container>
 			</nav>
-			<main>{props.children}</main>
+			<main>{children}</main>
 			<footer className={classes.footer}>
 				<Container>
 					<div className={classes.infoSection}>
@@ -44,12 +30,7 @@ const Layout = (props) => {
 						</div>
 						<div className={classes.footerLinks}>
 							<h3>Quick Links</h3>
-							<ul>
-								<li>Home</li>
-								<li>About Us</li>
-								<li>Services</li>
-								<li>Contacts</li>
-							</ul>
+							<NavLinks className={classes.footerLinks} />
 						</div>
 					</div>
 					<div className={classes.copyright}>

@@ -17,17 +17,6 @@
 	font-size: 2rem;
 }
 
-.menu ul {
-	list-style: none;
-	display: flex;
-	gap: 1rem;
-}
-
-.menu li a {
-	text-decoration: none;
-	color: #fff;
-}
-
 .footer {
 	background-color: #000;
 	color: #fff;
@@ -36,7 +25,7 @@
 
 .infoSection {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: flex-start;
 	margin-bottom: 2rem;
 }
@@ -49,8 +38,13 @@
 	width: 600px;
 }
 
-.footerLinks ul {
-	list-style: none;
+.footerContact p {
+	line-height: 1.5;
+}
+
+.footerLinks {
+	flex-direction: column;
+	gap: 0.5rem;
 }
 
 .copyright {

@@ -1,0 +1,12 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 1.2rem;
+	width: 20%;
+}
+
+.icon {
+	width: 4rem;
+}
